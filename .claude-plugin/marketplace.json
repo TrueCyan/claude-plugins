@@ -21,13 +21,19 @@
         "path": "src/unityflow/plugin"
       },
       "description": "Unity YAML 도구 - 결정적 직렬화, 충돌 해결, 애니메이션 워크플로우",
-      "version": "0.3.11",
+      "version": "0.3.12",
       "author": {
         "name": "TrueCyan"
       },
       "homepage": "https://github.com/TrueCyan/unityflow",
       "license": "MIT",
-      "keywords": ["unity", "yaml", "prefab", "animation", "merge"]
+      "keywords": [
+        "unity",
+        "yaml",
+        "prefab",
+        "animation",
+        "merge"
+      ]
     }
   ]
 }
