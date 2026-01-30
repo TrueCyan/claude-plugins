@@ -10,6 +10,7 @@ Claude Code plugins marketplace by TrueCyan.
 
 # Install plugins
 /plugin install claude-smart-context@truecyan-plugins
+/plugin install smart-approve@truecyan-plugins
 /plugin install unityflow@truecyan-plugins
 ```
 
@@ -25,6 +26,16 @@ Smart context management for Claude Code.
 - **Archive Access**: Instantly load previous work context
 
 [View Repository](https://github.com/TrueCyan/claude-smart-context)
+
+### smart-approve
+
+AI-powered auto-approval for read-only Bash commands.
+
+- **Rule-Based**: `ls`, `git status` 등 명확한 읽기 명령 즉시 자동 수락
+- **Static Analysis**: 스크립트 파일 내용을 분석하여 쓰기 작업 감지
+- **LLM Fallback**: 애매한 경우 `claude --print`로 AI가 판단
+
+[View Repository](https://github.com/TrueCyan/smart-approve)
 
 ### unityflow
 
