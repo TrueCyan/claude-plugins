@@ -29,11 +29,12 @@ Smart context management for Claude Code.
 
 ### smart-approve
 
-AI-powered auto-approval for read-only Bash commands.
+Smart Bash command auto-approval - 읽기 전용 명령과 유저가 요청한 명령을 자동 수락.
 
 - **Rule-Based**: `ls`, `git status` 등 명확한 읽기 명령 즉시 자동 수락
+- **npm Scripts**: `package.json`의 scripts를 읽어 실제 명령어 분석
 - **Static Analysis**: 스크립트 파일 내용을 분석하여 쓰기 작업 감지
-- **LLM Fallback**: 애매한 경우 `claude --print`로 AI가 판단
+- **LLM + User Intent**: 대화 기록에서 유저 의도를 파악하여, 유저가 요청한 명령은 자동 수락
 
 [View Repository](https://github.com/TrueCyan/smart-approve)
 
